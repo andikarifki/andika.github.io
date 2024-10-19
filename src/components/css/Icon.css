@@ -1,0 +1,21 @@
+/* Icon.css */
+
+/* Container for the icons */
+.icon-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 10px; /* Space between icons */
+  margin-top: 40px;
+}
+
+/* General icon styling */
+.icon {
+  text-decoration: none; /* Remove underline */
+  transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+}
+
+/* Hover effect for both icons */
+.icon:hover {
+  transform: scale(1.2); /* Zoom effect on hover */
+}

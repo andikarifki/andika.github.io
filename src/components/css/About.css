@@ -1,0 +1,61 @@
+.about {
+  background-color: #000000; /* Change to your desired color */
+  padding: 20px; /* Optional: Add some padding */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.heading-name {
+  color: white;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  font-size: 50px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 00px;
+}
+
+.section-link {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.heading-position {
+  color: rgb(199, 221, 221);
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  font-size: 20px;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.link-pdf {
+  background-color: transparent; /* Membuat tombol transparan */
+  border: 2px solid #007bff; /* Ganti dengan warna yang diinginkan */
+  color: #007bff; /* Ganti dengan warna teks yang diinginkan */
+  padding: 10px 20px; /* Padding tombol */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  border-radius: 5px; /* Membuat sudut tombol melengkung */
+  cursor: pointer; /* Menunjukkan bahwa ini dapat diklik */
+  transition: background-color 0.3s; /* Animasi transisi */
+  margin-right: 10px; /* Jarak antar tombol */
+  margin-top: 30px;
+}
+
+.link-pdf:hover {
+  background-color: #007bff; /* Warna latar belakang saat hover */
+  color: white; /* Warna teks saat hover */
+}
+
+.link-contact {
+  background-color: goldenrod;
+  border: 1px solid #000; /* Tambahkan border jika diperlukan */
+  color: #000; /* Warna teks */
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; /* Jarak antar tombol */
+}

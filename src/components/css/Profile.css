@@ -1,0 +1,11 @@
+.profile {
+  text-align: center; /* Memusatkan teks */
+}
+
+.profile-picture {
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  width: 450px; /* Atur lebar gambar */
+  height: 450px; /* Sesuaikan tinggi gambar agar sama dengan lebar */
+  margin-top: 10px;
+  object-fit: cover; /* Menjaga proporsi gambar saat berubah bentuk */
+}

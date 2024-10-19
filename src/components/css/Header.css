@@ -1,0 +1,15 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100px; /* Adjust height as needed */
+  color: aliceblue;
+}
+
+.heading-header {
+  margin-top: 150px;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
